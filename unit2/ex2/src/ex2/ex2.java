@@ -15,7 +15,7 @@ public class ex2 {
 		            System.out.println("Good afternoon");
 		        } else if (hour >= 6 && hour < 12) {
 		            System.out.println("Good morning");
-		        } else if (hour >= 1 && hour < 6) {
+		        } else if (hour >= 0 && hour < 6) {
 		            System.out.println("Good day");
 		        } else {
 		            System.out.println("Invalid hour! Please enter a valid hour between 1 and 24.");
